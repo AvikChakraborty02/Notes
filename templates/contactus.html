@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    {% load static %}
+    <title>Notes | Contact Us</title>
+    <style>
+        body{
+            font-family: Consolas,monaco,monospace;
+        }
+        .card{
+          margin-top: 2%;
+            width: 95%;
+            margin-left: 3%;
+            border: 1px solid;
+            height: 90vh;
+            border-radius: 1%;
+        }
+       #image{
+        float: left;
+        margin-top: 4%;
+       }
+       #content{
+        float: right;
+        margin-top: 4%;
+        margin-right: 1%;
+       }
+       img{
+        height: 600px;
+        width: 800px;
+       }
+    </style>
+  </head>
+  <body>
+      <div class="card">
+        <div class="row align-items-start">
+          <div class="col" id="image">
+            <img src="{% static 'contactus.gif' %}"  alt="contactus image">
+          </div>
+          <div class="col" id="content">
+            <h5 class="card-title" style="font-weight: bold;">Contact Us:</h5>
+            <hr>
+            <p>If you would like to connect with us then you can do it via Facebook, Instagram, Github, Email. We are going to keep up this project
+              to highest level as much as we can. Keep supporting us. Follow us on Facebook and Instagram.
+            </p>
+            <p id="icons">Facebook: <a href="https://www.facebook.com/profile.php?id=100022128412572&mibextid=ZbWKwL">Avik Chakraborty</a></p>
+            <p id="icons">Instagram: <a href="https://instagram.com/ig_mr.starkop?igshid=YmMyMTA2M2Y=">ig_mr.starkop</a></p>
+            <p id="icons">Github: <a href="https://github.com/AvikChakraborty02/AvikChakraborty02.git">AvikChakraborty02</a></p>
+            <p id="icons">Email: avikchakra016@gmail.com</p>
+            <a href="/" class="btn btn-dark">Back</a>
+          </div>
+        </div>
+      </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
